@@ -7,6 +7,7 @@ body{
 }
 h1{
     background-color:black;
+    opacity: 0.8;
     margin:0;
     color: silver;
     font-size: 42px;
@@ -17,26 +18,45 @@ h1{
     padding-top:"20px";
     padding-bottom: "20px";
     line-height:150%;
+    
 }
 
 h2{
 
     color: silver;
     text-align: left;
+    text-shadow: 3px 2px white;
+    text-decoration: underline;
     font-size: 36px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;   
+    
+  
+
 
 }
 
 h3{
 
     font-size: 36px;
+    text-shadow: 3px 2px white; 
+    text-decoration: underline;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;   
 
 }
+
+.img{
+    height: 200px;
+    width: 200px;
+    left:10px;
+    border-style: double;
+    border-color: silver;
+}
+
+
 p{
     color:silver;
     margin:0;
+    text-align: justify;
     position: relative;
     right: 580px
     ;
@@ -84,3 +104,8 @@ float: left;
    
    
 }
+div{
+padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 80px;}
