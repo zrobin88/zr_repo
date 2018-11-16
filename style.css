@@ -19,6 +19,12 @@ h1{
     line-height:150%;
 }
 
+img{
+    border-style: double;
+    border-color: silver;
+}
+
+
 h2{
 
     color: silver;
